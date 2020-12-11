@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms Demo</title>
+    </head>
+
+    <body>
+        <h1>Forms Demo</h1>
+        <button>outside the form and doesn't go anywhere</button>
+        <form action="/tacos">
+            <p>
+                <label for="enter username">enter username</label>
+                <input type="text" placeholder="username" name="username" id="">
+            </p>
+            <button type="button">please do not submit</button>
+            <p>
+                <label for="password">enter password</label>
+                <input type="password" placeholder="paswword" name="password" id="">
+            </p>
+            <label for="color">color</label>
+            <input type="color" name="color" id="">
+            <p>
+                <label for="today's date">today's date</label>
+                <input type="date" name="date" id="">
+            </p>
+            <button>in the middle of the <form action=""></form></button>
+            <p>
+                <input type="range" name="" id="">
+                <input type="number" placeholder="age" name="" id="">
+                <input type="week" name="" id="">
+            </p>
+            <div>
+                <label for="male">male</label>
+                <input type="checkbox" name="male" id="male">
+                <label for="female">female</label>
+                <input type="checkbox" name="female" id="female">
+            </div>
+            <p><input type="checkbox" name="agree_TOS" id="agree">
+                <label for="agree">I agree to the TOS</label>
+            </p>
+            <p>
+                <input type="checkbox" name="checked" id="check" checked>
+                <label for="checked">this box started already checked</label>
+            </p>
+            <p>
+                <button>submit</button>
+                <input type="submit" value="acting just like a button" name="" id="">
+            </p>
+        </form>
+
+        <h2>more forms radio buttons</h2>
+        <form action="/goats">
+            <p>
+                <label for="S">Small</label>
+                <input type="radio" name="size" id="S" value="S">
+                <label for="M">Medium</label>
+                <input type="radio" name="size" id="M" value="M">
+                <label for="L">Large</label>
+                <input type="radio" name="size" id="L" value="L">
+            </p>
+            <button>submit</button>
+        </form>
+
+
+        <h2>hijacking searchs</h2>
+        <h3>search google</h3>
+        <form action="https://www.google.com/search">
+            <input type="text" name="query" id="">
+            <Button>Search Google</Button>
+        </form>
+        <h3>search youtube</h3>
+        <form action="https://www.youtube.com/results">
+            <input type="text" name="search_query" id="">
+            <Button>Search YouTube</Button>
+        </form>
+
+        <h2>the select form </h2>
+        <label for="pet-selection">pick yur pet</label>
+        <select name="pet" id="pet-selection">
+            <option value="">pick your pet</option>
+            <option value="dog">dog</option>
+            <option value="cat">cat</option>
+            <option value="bird">bird</option>
+            <option value="fish">fish</option>
+
+        </select>
+
+    </body>
+
+</html>
